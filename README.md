@@ -5,34 +5,34 @@
 
 
 ## strecture de projet
-![](screens/strecture_projet.png)
+![](./screens/strecture_projet.png)
 
 ## Les tables dans la base de donnés
 ![](screens/BD.png)
 
 ## Les mots de passes encodes
-![](screens/mots_de_passes.png)
+![](./screens/mots_de_passes.png)
 
 ## Page login
-![](screens/login.png)
+![](./screens/login.png)
 ---
 ##  Connexion réussie  redirection vers home
-![](screens/home.png)
+![](./screens/home.png)
 ---
 ## Mauvise mot de passe
-![](screens/msg%20erreu.png)
+![](./screens/msg%20erreu.png)
 ---
 ## Connection user vers /user/dashboard
-![](screens/user%20to%20user.png)
+![](./screens/user%20to%20user.png)
 ---
 ## Connection user à /admin/dashboard
-![](screens/user%20to%20admin.png)
+![](./screens/user%20to%20admin.png)
 ---
 ## Connection admin vers /admin/dashboard
-![](screens/admin%20to%20admin.png)
+![](./screens/admin%20to%20admin.png)
 ---
 ## Connction admin à /user/dashboard
-![](screens/admin%20to%20user.png)
+![](./screens/admin%20to%20user.png)
 ---
 ## Déconnexion
-![](screens/logout.png)
+![](./screens/logout.png)
