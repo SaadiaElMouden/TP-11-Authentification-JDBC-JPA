@@ -20,19 +20,19 @@
 ![](./screens/home.png)
 ---
 ## Mauvise mot de passe
-![](./screens/msg_erreu.png)
+![](./screens/msg_erreur.png)
 ---
 ## Connection user vers /user/dashboard
-![](./screens/user_to_user.png)
+![](./screens/user_user.png)
 ---
 ## Connection user à /admin/dashboard
-![](./screens/user_to_admin.png)
+![](./screens/user_admin.png)
 ---
 ## Connection admin vers /admin/dashboard
-![](./screens/admin_to_admin.png)
+![](./screens/admin_admin.png)
 ---
 ## Connction admin à /user/dashboard
-![](./screens/admin_to_user.png)
+![](./screens/admin_user.png)
 ---
 ## Déconnexion
 ![](./screens/logout.png)
