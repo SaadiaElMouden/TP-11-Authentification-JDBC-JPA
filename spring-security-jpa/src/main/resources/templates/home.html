@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            width: 400px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: #2b5797;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border-radius: 6px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .user-btn {
+            background: #28a745;
+        }
+
+        .user-btn:hover {
+            background: #1e7e34;
+        }
+
+        .admin-btn {
+            background: #007bff;
+        }
+
+        .admin-btn:hover {
+            background: #0056b3;
+        }
+
+        .logout {
+            margin-top: 20px;
+            display: inline-block;
+            color: #dc3545;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .logout:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Bienvenue </h2>
+    <p>Connexion réussie ! Choisissez votre espace :</p>
+
+    <ul>
+        <li>
+            <a th:href="@{/user/dashboard}" class="btn user-btn">
+                Espace Utilisateur
+            </a>
+        </li>
+
+        <li>
+            <a th:href="@{/admin/dashboard}" class="btn admin-btn">
+                Espace Administrateur
+            </a>
+        </li>
+    </ul>
+
+    <a th:href="@{/logout}" class="logout">
+        Se déconnecter
+    </a>
+
+
+</div>
+
+</body>
+</html>
